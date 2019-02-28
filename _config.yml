@@ -9,7 +9,7 @@ name: Sven Bischoff
 description: Full-Stack Developer from Leipzig
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: http://dev.bischoff.media/assets/ml-min.svg
+avatar: ./images/logo.svg
 
 #
 # Flags below are optional

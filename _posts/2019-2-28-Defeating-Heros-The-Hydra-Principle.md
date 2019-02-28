@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Defeating Heros - The Hydra Principle
+description: The Hydra Principle - How to defeat heros in software development, ensuring a great bus factor and the spread knowledge.
 ---
 
 > A monster is in town and brought mayhem upon this cursed land!

@@ -19,7 +19,7 @@ avatar: ./images/logo.svg
 footer-links:
   dribbble:
   email: sven@bischoff.media
-  facebook: 
+  facebook:
   flickr:
   github: medienlampe
   instagram:
@@ -30,7 +30,6 @@ footer-links:
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
-
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
@@ -47,13 +46,13 @@ url: https://blog.bischoff.media
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: ""
+baseurl: https://blog.bischoff.media
 
 #
 # !! You don't need to change any of the configuration flags below !!
 #
 
-permalink: /:title/
+permalink: /:year:month:day-:title.html
 
 # The release of Jekyll Now that you're using
 version: v1.2.0
@@ -66,7 +65,7 @@ kramdown:
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     # Use existing pygments syntax highlighting css
-    css_class: 'highlight'
+    css_class: "highlight"
 
 # Set the Sass partials directory, as we're using @imports
 sass:
